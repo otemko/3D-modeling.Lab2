@@ -39,10 +39,10 @@ namespace WindowsFormsApplication1
             }
         }
 
-        public PointOfFigure(Point currentCoorinateCursor, int _number)
+        public PointOfFigure(Point currentCoorinateCursor, int number)
         {
             coordinates = currentCoorinateCursor;
-            number = _number;
+            this.number = number;
         }
     }
 }

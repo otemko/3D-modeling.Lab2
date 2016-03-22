@@ -41,7 +41,7 @@ namespace WindowsFormsApplication1
 
         public void AddPointInList(PointOfFigure point)
         {
-            listPoints.Add(point);
+            ListPoints.Add(point);
         }
 
         public void DrawLines(Color colorPoint, Graphics formGraphics, List<PointOfFigure> listPoints)

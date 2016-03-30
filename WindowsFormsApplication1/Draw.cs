@@ -10,7 +10,7 @@ namespace WindowsFormsApplication1
     class Draw
     {
         private List<PointOfFigure> listPoints;
-
+        private string Artiom = "Hello";
         internal List<PointOfFigure> ListPoints
         {
             get
